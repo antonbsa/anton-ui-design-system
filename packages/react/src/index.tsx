@@ -1,11 +1,34 @@
-import { styled } from '@stitches/react'
+import { ComponentProps } from 'react'
 
-const Button = styled('button', {
+import { styled } from '../styles'
+
+export const Button = styled('button', {
   fontFamily: '$default',
   borderRadius: '$md',
   backgroundColor: '$ignite500',
+  padding: '$2 $4',
+  border: 0,
+  color: '$white',
+  fontWeight: 'bold',
+  fontSize: '$sm',
+  cursor: 'pointer',
+
+  variants: {
+    size: {
+      small: {
+        fontSize: '14',
+        padding: '$2 $4',
+      },
+      medium: {
+        fontSize: '16',
+        padding: '$3 $6',
+      },
+    },
+  },
+
+  defaultVariants: {
+    size: 'small',
+  },
 })
 
-export function App() {
-  return <Button>Hello world</Button>
-}
+export type ButtonProps = ComponentProps<typeof Button>

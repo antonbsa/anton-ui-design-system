@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "dev": "storybook dev -p 6006",
+    "dev": "storybook dev -p 6006 --no-open",
     "build": "storybook build"
   },
   "dependencies": {
@@ -13,6 +13,9 @@
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@anton-ui/react": "*",
+    "@anton-ui/tokens": "*",
+    "@anton-ui/eslint-config": "*",
     "@eslint/js": "^9.36.0",
     "@storybook/react-vite": "^9.1.10",
     "@types/node": "^24.6.0",
