@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Button, type ButtonProps } from '@anton-ui/react'
 
 const meta: Meta<ButtonProps> = {
-  title: 'Button',
+  title: 'Form/Button',
   component: Button,
   args: {
     children: 'Enviar',
