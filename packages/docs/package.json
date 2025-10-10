@@ -9,14 +9,16 @@
     "build": "storybook build"
   },
   "dependencies": {
+    "polished": "^4.3.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
   "devDependencies": {
+    "@anton-ui/eslint-config": "*",
     "@anton-ui/react": "*",
     "@anton-ui/tokens": "*",
-    "@anton-ui/eslint-config": "*",
     "@eslint/js": "^9.36.0",
+    "@storybook/addon-docs": "^9.1.10",
     "@storybook/react-vite": "^9.1.10",
     "@types/node": "^24.6.0",
     "@types/react": "^19.1.16",
