@@ -3,10 +3,11 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "lib": [
-      "DOM",
+      "dom",
       "ES2015"
     ],
-    "moduleResolution": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "target": "ES6"
   }
 }
