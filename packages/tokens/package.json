@@ -14,7 +14,6 @@
   "license": "MIT",
   "description": "",
   "devDependencies": {
-    "@anton-ui/tokens": "*",
     "@anton-ui/ts-config": "*",
     "@anton-ui/eslint-config": "*",
     "tsup": "^8.5.0",
