@@ -1,4 +1,4 @@
-import { styled } from '../../styles'
+import { styled } from '../styles'
 
 export const Heading = styled('h2', {
   fontFamily: '$default',
@@ -24,4 +24,4 @@ export const Heading = styled('h2', {
   },
 })
 
-export interface HeadingProps extends React.ComponentProps<typeof Heading> {}
+export interface HeadingProps extends React.ComponentProps<typeof Heading> { }

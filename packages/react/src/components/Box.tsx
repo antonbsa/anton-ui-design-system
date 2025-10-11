@@ -1,4 +1,4 @@
-import { styled } from '../../styles'
+import { styled } from '../styles'
 
 export const Box = styled('div', {
   padding: '$4',
@@ -9,4 +9,4 @@ export const Box = styled('div', {
   boxShadow: '$md',
 })
 
-export interface BoxProps extends React.ComponentProps<typeof Box> {}
+export interface BoxProps extends React.ComponentProps<typeof Box> { }

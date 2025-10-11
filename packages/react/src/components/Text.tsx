@@ -1,4 +1,4 @@
-import { styled } from '../../styles'
+import { styled } from '../styles'
 
 export const Text = styled('p', {
   fontFamily: '$default',
@@ -29,4 +29,4 @@ export const Text = styled('p', {
   },
 })
 
-export interface TextProps extends React.ComponentProps<typeof Text> {}
+export interface TextProps extends React.ComponentProps<typeof Text> { }
