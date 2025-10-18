@@ -21,6 +21,13 @@ const config: StorybookConfig = {
   "framework": {
     "name": getAbsolutePath('@storybook/react-vite'),
     "options": {}
+  },
+  viteFinal: async (config, { configType }) => {
+  if (configType === 'PRODUCTION') {
+    config.base = '/anton-ui-design-system';
   }
+
+  return config;
+  },
 };
 export default config;
