@@ -7,10 +7,15 @@ const meta: Meta<BoxProps> = {
   component: Box,
   args: {
     children: (
-      <>
-        <Text>Testando o elemento Box</Text>
-      </>
+      <Text>Testando o elemento Box</Text>
     ),
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 }
 

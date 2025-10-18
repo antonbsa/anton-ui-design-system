@@ -9,6 +9,18 @@ const meta: Meta<AvatarProps> = {
     src: 'https://github.com/antonbsa.png',
     alt: 'Anton Barboza de Sá',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+    alt: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 }
 
 export default meta
