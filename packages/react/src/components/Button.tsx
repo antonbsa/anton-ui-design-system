@@ -26,6 +26,11 @@ export const Button = styled('button', {
     cursor: 'not-allowed',
   },
 
+  '&:focus': {
+    outline: 'none',
+    boxShadow: '0 0 0 2px $colors$ignite500',
+  },
+
   variants: {
     variant: {
       primary: {
@@ -38,10 +43,6 @@ export const Button = styled('button', {
 
         '&:disabled': {
           backgroundColor: '$gray200',
-        },
-
-        '&:focus': {
-          boxShadow: '0 0 0 2px $colors$ignite500',
         },
       },
       secondary: {
