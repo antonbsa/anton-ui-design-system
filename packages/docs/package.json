@@ -19,6 +19,7 @@
     "@anton-ui/react": "*",
     "@anton-ui/tokens": "*",
     "@eslint/js": "^9.36.0",
+    "@storybook/addon-a11y": "^9.1.13",
     "@storybook/addon-docs": "^9.1.10",
     "@storybook/react-vite": "^9.1.10",
     "@types/node": "^24.6.0",
