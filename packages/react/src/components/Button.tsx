@@ -86,4 +86,6 @@ export const Button = styled('button', {
   },
 })
 
-export interface ButtonProps extends React.ComponentProps<typeof Button> {}
+export interface ButtonProps extends React.ComponentProps<typeof Button> { }
+
+Button.displayName = 'Button'
